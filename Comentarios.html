@@ -49,8 +49,10 @@
 			<!--Comentarios/Calificaciones-->
 			<form class="w-100" action="Comentarios.html" method="GET" accept-charset="utf-8">
 				<div class="form-row">
-					<textarea class="comentarios__textarea scroll-style w-75 p-3 my-4" placeholder="Agrega un comentario…"></textarea>
-					<input class="comentarios__button align-text-bottom w-30 py-1 mb-4" type="submit" name="Enviar" value="Enviar">
+					<textarea class="comentarios__textarea scroll-style w-75 p-3 mt-4" placeholder="Agrega un comentario…"></textarea>
+					<span class="d-inline-block py-1 mb-4" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="Pronto podras podrás dejarnos tus comentarios.">
+						<input class="comentarios__button align-text-bottom w-30" type="button" name="Enviar" value="Enviar">
+					</span>
 				</div>
 			</form>
 			
@@ -66,15 +68,15 @@
 	<div class="py-4 footer">
 		<div class="container-fluid d-flex justify-content-between">
 			<div>
-				<a class="px-2" href="https://www.instagram.com" title="Instagram">
+				<a class="px-2" href="https://www.instagram.com" target="_blank" title="Instagram">
 					<img class="pop" src="img/instagram.png" loading="lazy" alt="Instagram" width="32" height="32">
 				</a>
-				<a href="https://www.twitter.com" title="Twitter">
+				<a href="https://www.twitter.com" target="_blank" title="Twitter">
 					<img class="pop" src="img/twitter.png" loading="lazy" alt="Twitter" width="32" height="32">
 				</a>
 			</div>
 			<div>
-				<a tabindex="0" class="px-2" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="Pronto podras disfrutar del contenido en Ingles!">
+				<a tabindex="0" class="px-2" role="button" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Pronto podras disfrutar del contenido en Ingles!">
 					<img class="pop" src="img/english.png" loading="lazy" alt="Ingles" width="32" height="32">
 				</a>
 				<a title="Español">
